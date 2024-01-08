@@ -10,3 +10,5 @@ I ricercatori di Meta AI hanno introdotto un metodo chiamato Retrieval Augmented
 
 Il RAG riceve un input e recupera un insieme di documenti pertinenti, dati da una fonte pubblica e/o privata (ad esempio, Wikipedia). I documenti vengono concatenati come contesto con la richiesta originale di input (domanda utente) ed inviati al generatore di testo che produce l'output finale. Questo rende il RAG adattabile a situazioni in cui i fatti possono evolvere nel tempo. Risulta molto utile poichè la conoscenza parametrica degli LLM è statica (ferma alla data dell'ultimo addestramento). Il RAG permette ai modelli linguistici di evitare continui addestramenti, consentendo l'accesso alle informazioni più recenti per generare output affidabili attraverso la generazione basata sul reperimento delle informazioni da fonti certe.
 
+<img title="Diagramma semplificato R.A.G." alt="Diagramma R.A.G." src="./images/arch_rag.png">
+
